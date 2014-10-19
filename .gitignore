@@ -1,6 +1,6 @@
 builds/*
 run/*
-ver_a/build
-ver_a/dist
-ver_a/fooserv.egg-info
+ver_[ab]/build
+ver_[ab]/dist
+ver_[ab]/fooserv.egg-info
 *.pyc
