@@ -1,0 +1,6 @@
+builds/*
+run/*
+ver_a/build
+ver_a/dist
+ver_a/fooserv.egg-info
+*.pyc
