@@ -1,8 +1,8 @@
 #!/bin/sh
 set -e
 echo "clean builds directory"
-rm -r builds/*
-mkdir builds/ver_a builds/ver_b
+rm -r builds/* || true
+mkdir -p builds/ver_a builds/ver_b
 
 echo "Building python eggs"
 cd ver_a; python setup.py bdist_egg; cd ..
